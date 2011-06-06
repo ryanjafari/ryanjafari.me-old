@@ -1,15 +1,26 @@
 <div class="code">
   <pre>
-  <span class="c">// ==================</span>
-  <span class="c">// = new coder mixin </span>
-  <span class="c">// ==================</span>
-  <span class="r">=</span><span class='m'>coder</span>($<span class="sy">f-name</span>: <span class="s">'Ryan'</span>, $<span class="sy">l-name</span>: <span class="s">'Jafari'</span>)<span class="i">¬</span>
-    <span class="p">name</span>: <span class="s">'#{$f-name} #{$l-name}'</span>,<span class="i">¬</span>
-    <span class="p">twit</span>: <span class="s">'<a href='https://twitter.com/ryanjafari' title='Twitter' target="blank">ryanjafari</a>'</span>,<span class="i">¬</span>
-    <span class="p">code</span>: <span class="s">'<a href="https://github.com/ryanjafari" title="Github" target="blank">ryanjafari</a>'</span>,<span class="i">¬</span>
-    <span class="p">mail</span>: <span class="s">'<a href="mailto:ryan@cetrasoft.com" title="email" target="blank">ryan@cetrasoft.com</a>'</span>,<span class="i">¬</span>
-    <span class="p">work</span>: <span class="s">'<a href="http://www.cetrasoft.com" title="Cetrasoft LLC" target="blank">cetrasoft</a>'</span>,<span class="i">¬</span>
-    <span class="p">olds</span>: <span class="s">'<a href="http://www.ryanjafari.com">ryanjafari.com</a>'</span>,<span class="i">¬</span>
-    <span class="p">live</span>: <span class="s">'#{<a href="http://www.google.com/maps?f=q&q=40.654825,-73.671795&z=10" title="Google maps: Lynbrook, NY, United States" target="blank">40.654825, -73.671795</a>}'</span><span class="i">¬</span>
+  <span class="c">// =================</span><span class="i">¬</span>
+  <span class="c">// = person styling </span><span class="i">¬</span>
+  <span class="c">// =================</span><span class="i">¬</span>
+  <span class="se">#ryan_jafari.person</span><span class="i">¬</span>
+    <span class="r">+</span><span class="m">coder</span><span class="i">¬</span>
+    <span class="r">+</span><span class="m">friend</span><span class="i">¬</span>
+    <span class="p">height</span>: <span class="fl">68</span><span class="r">in</span><span class="i">¬</span>
+    <span class="p">width</span>: <span class="fl">31</span><span class="r">in</span><span class="i">¬</span>
+  <span class="i">¬</span>  
+  <span class="c">// new coder mixin</span><span class="i">¬</span>
+  <span class="r">=</span><span class='m'>coder</span><span class="i">¬</span>
+    <span class="p">code</span>: <span class="s">'<a href="https://github.com/ryanjafari" title="GitHub" target="blank">ryanjafari</a>'</span> !<span class="sy">important</span><span class="i">¬</span>
+    <span class="p">mail</span>: <span class="s">'<a href="mailto:ryan@cetrasoft.com" title="Email" target="blank">ryan@cetrasoft.com</a>'</span><span class="i">¬</span>
+    <span class="p">work</span>: <span class="s">'<a href="http://www.cetrasoft.com" title="Cetrasoft LLC" target="blank">cetrasoft</a>'</span><span class="i">¬</span>
+    <span class="p">link</span>: <span class="s">'<a href="http://www.linkedin.com/in/ryanjafari" title="LinkedIn" target="blank">linkedin</a>'</span><span class="i">¬</span>
+    <span class="p">olds</span>: <span class="s">'<a href="http://www.ryanjafari.com" title="ryanjafari.com" target="blank">ryanjafari.com</a>'</span><span class="i">¬</span>
+    <span class="p">live</span>: <span class="s">'<a href="http://www.google.com/maps?f=q&q=40.654825,-73.671795&z=10" title="Google maps: Lynbrook, NY, United States" target="blank">40.654825, -73.671795</a>'</span><span class="i">¬</span>
+  <span class="i">¬</span>
+  <span class="c">// new friend mixin</span><span class="i">¬</span>
+  <span class="r">=</span><span class='m'>friend</span><span class="i">¬</span>
+    <span class="p">twit</span>: <span class="s">'<a href='https://twitter.com/ryanjafari' title='Twitter' target="blank">ryanjafari</a>'</span> !<span class="sy">important</span><span class="i">¬</span>
+    <span class="p">face</span>: <span class="s">'<a href='https://facebook.com/ryan.jafari' title='Facebook' target="blank">ryanjafari</a>'</span><span class="i">¬</span>
   </pre>
 </div>

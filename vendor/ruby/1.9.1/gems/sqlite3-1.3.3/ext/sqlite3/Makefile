@@ -4,11 +4,11 @@ SHELL = /bin/sh
 #### Start of system configuration section. ####
 
 srcdir = .
-topdir = /Users/carlosiii/.rvm/rubies/ruby-1.9.2-p180/include/ruby-1.9.1
-hdrdir = /Users/carlosiii/.rvm/rubies/ruby-1.9.2-p180/include/ruby-1.9.1
-arch_hdrdir = /Users/carlosiii/.rvm/rubies/ruby-1.9.2-p180/include/ruby-1.9.1/$(arch)
+topdir = /Users/ryanjafari/.rvm/rubies/ruby-1.9.2-p180/include/ruby-1.9.1
+hdrdir = /Users/ryanjafari/.rvm/rubies/ruby-1.9.2-p180/include/ruby-1.9.1
+arch_hdrdir = /Users/ryanjafari/.rvm/rubies/ruby-1.9.2-p180/include/ruby-1.9.1/$(arch)
 VPATH = $(srcdir):$(arch_hdrdir)/ruby:$(hdrdir)/ruby
-prefix = $(DESTDIR)/Users/carlosiii/.rvm/rubies/ruby-1.9.2-p180
+prefix = $(DESTDIR)/Users/ryanjafari/.rvm/rubies/ruby-1.9.2-p180
 rubylibprefix = $(libdir)/$(RUBY_BASE_NAME)
 exec_prefix = $(prefix)
 vendorhdrdir = $(rubyhdrdir)/vendor_ruby
@@ -62,7 +62,7 @@ INCFLAGS = -I. -I$(arch_hdrdir) -I$(hdrdir)/ruby/backward -I$(hdrdir) -I$(srcdir
 DEFS     = 
 CPPFLAGS = -DHAVE_RB_PROC_ARITY -DHAVE_SQLITE3_INITIALIZE -DHAVE_SQLITE3_NEXT_STMT -DHAVE_SQLITE3_BACKUP_INIT -I/usr/local/include -I/opt/local/include -I/sw/local/include -I/usr/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE $(DEFS) $(cppflags)
 CXXFLAGS = $(CFLAGS) $(cxxflags)
-ldflags  = -L. -L/usr/local/lib
+ldflags  = -L. 
 dldflags = -Wl,-undefined,dynamic_lookup -Wl,-multiply_defined,suppress -Wl,-flat_namespace
 ARCH_FLAG = 
 DLDFLAGS = $(ldflags) $(dldflags)
@@ -77,7 +77,7 @@ RUBY_SO_NAME = ruby.1.9.1
 arch = x86_64-darwin10.7.0
 sitearch = $(arch)
 ruby_version = 1.9.1
-ruby = /Users/carlosiii/.rvm/rubies/ruby-1.9.2-p180/bin/ruby
+ruby = /Users/ryanjafari/.rvm/rubies/ruby-1.9.2-p180/bin/ruby
 RUBY = $(ruby)
 RM = rm -f
 RM_RF = $(RUBY) -run -e rm -- -rf
@@ -114,8 +114,8 @@ STATIC_LIB =
 
 BINDIR        = $(bindir)
 RUBYCOMMONDIR = $(sitedir)$(target_prefix)
-RUBYLIBDIR = /Users/carlosiii/Documents/Development/carlosramireziii.me/vendor/ruby/1.9.1/gems/sqlite3-1.3.3/lib$(target_prefix)
-RUBYARCHDIR = /Users/carlosiii/Documents/Development/carlosramireziii.me/vendor/ruby/1.9.1/gems/sqlite3-1.3.3/lib$(target_prefix)
+RUBYLIBDIR = /Users/ryanjafari/Documents/gh/ryanjafari.me/vendor/ruby/1.9.1/gems/sqlite3-1.3.3/lib$(target_prefix)
+RUBYARCHDIR = /Users/ryanjafari/Documents/gh/ryanjafari.me/vendor/ruby/1.9.1/gems/sqlite3-1.3.3/lib$(target_prefix)
 HDRDIR        = $(rubyhdrdir)/ruby$(target_prefix)
 ARCHHDRDIR    = $(rubyhdrdir)/$(arch)/ruby$(target_prefix)
 

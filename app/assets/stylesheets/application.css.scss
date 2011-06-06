@@ -22,7 +22,7 @@ body {
   float: left;
   width: 1px;
   height: 50%;
-  margin-bottom: -154px;
+  margin-bottom: -286px;
 }
 
 #main {
@@ -55,10 +55,11 @@ a {
   .co { color: #6b99ba; }   // constant
   .fl { color: #FF6A4B; }   // float
   .r  { color: #FF2757; }   // keyword
-  .s  { color: #68FF6B; background-color: #00332D; }   // string
   .sy { color: #00ABFF; }   // symbol
   .i  { color: #383B58; }   // invisible char
   .m  { color: #4583FD; }   // mixin
   .p  { color: #C4A960; }   // property
-  .c { color: #C050C2; background-color: #000000; } // comment
+  .se { color: #8B98A3; }   // selector
+  .s  { color: #68FF6B; background-color: #00332D; }  // string
+  .c  { color: #C050C2; background-color: #000000; }  // comment  
 }
