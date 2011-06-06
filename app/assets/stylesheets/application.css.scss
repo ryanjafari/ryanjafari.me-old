@@ -13,16 +13,16 @@ html, body {
 }
   
 body {
-  background-color: #362624;
+  background-color: #0A0723;
   font-family: "Bitstream Vera Sans", monospace;
-  color: #e6e1c3;
+  color: #ffffff;
 } 
   
 #distance {
   float: left;
   width: 1px;
   height: 50%;
-  margin-bottom: -88px;
+  margin-bottom: -154px;
 }
 
 #main {
@@ -42,7 +42,7 @@ h1 {
   
 a {
   text-decoration: none;
-  color: #d8d662;
+  color: #68FF6B;
   
   &:hover {
     text-decoration: underline;
@@ -53,11 +53,14 @@ a {
 .code, h1 { font-size: 22px; }
 
 .code {
-  .t  { color: #e6e1c3; }   // text
+  .t  { color: #00FFCD; }   // text
   .co { color: #6b99ba; }   // constant
-  .fl { color: #6b99ba; }   // float
-  .r  { color: #00bdef; }   // keyword
-  .s  { color: #d8d662; }   // string
-  .sy { color: #6b99ba; }   // symbol
-  .i  { color: #737373; }   // invisible char
+  .fl { color: #FF6A4B; }   // float
+  .r  { color: #FF2757; }   // keyword
+  .s  { color: #68FF6B; background-color: #00332D; }   // string
+  .sy { color: #00ABFF; }   // symbol
+  .i  { color: #383B58; }   // invisible char
+  .m  { color: #4583FD; }   // mixin
+  .p  { color: #C4A960; }   // property
+  .c { color: #C050C2; background-color: #000000; } // comment
 }
